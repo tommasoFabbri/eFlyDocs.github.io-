@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/about/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/UserInterface/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/fundamentals/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/about/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/general/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/fundamentals/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/setup/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/general/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/tommasoFabbri/eFlyDocs/use/</loc>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/setup/</loc>
+         <lastmod>2022-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/use/</loc>
          <lastmod>2022-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="canonical" href="https://github.com/tommasoFabbri/eFlyDocs.github.io-.git/UserInterface/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>User Interface - eFlyDocs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "User Interface";
+    var mkdocs_page_input_path = "UserInterface.md";
+    var mkdocs_page_url = "/tommasoFabbri/eFlyDocs.github.io-.git/UserInterface/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> eFlyDocs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../general/">Introduction</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../fundamentals/">Fundamentals</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../setup/">Quick Start</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../use/">Use of the system</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">eFlyDocs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>User Interface</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="user-interface">User Interface</h1>
+<p><img alt="" src="../img/app_home.png" style="width:300px" /></p>
+<h2 id="casting-panel">Casting Panel</h2>
+<p><img alt="" src="../img/CastingPanel.png" style="width:500px" /></p>
+<p>The first interface accessed after connecting with the sensor is the Casting Panel.
+In this panel the real-time values ​​of Angles, Angular Velocities and Linear Accelerations are available.
+The left side contains a scrollbar for viewing the graphs. 
+The right side contains the 3D model of the rod and a zoom view on the reel that allows you to check the orientation in greater detail.</p>
+<p>Now try to rotate the rod back and forth, as if to simulate a series of false casts. 
+You will notice that the graphs begin to plot the angle values, the hands move and the 3D model of the rod moves following the movement of your real rod.
+During this movement the tip of the rod leaves a trail that disappears after a few seconds. 
+This indicates that the data is correctly transferred from the sensor to the device.</p>
+<h3 id="video">Video</h3>
+<p><img alt="" src="../img/video_button.png" style="width:500px" /></p>
+<p>If the camera is available in the device, the "VIDEO" switch appears. 
+Activating it, the interface changes automatically to make room for the video preview window.</p>
+<p><img alt="" src="../img/video_preview.png" style="width:500px" /></p>
+<p>The use of video is highly recommended. It is in fact important to be able to associate the numerical values ​​and the graphs to the video image of the caster.</p>
+<h3 id="cast-recording">Cast Recording</h3>
+<p>At the top of the interface there are two combo boxes. The first "START DELAY" allows you to set the delay with which recording starts with respect to the moment the button is pressed.
+The second "RECORD TIME" sets the duration of the recording.
+The countdown and then the recording starts with the "RECORD" button.
+An audible countdown warns of the start of the recording. During the recording, a sound warns that there are five seconds to the end of the time and a further one warns of the conclusion of the process.
+The volume of the audible warnings is managed by the appropriate slider.
+When the acquisition is finished, the "VIEW" button appears on the lower part of the screen.
+Pressing it opens the dynamic data preview panel.</p>
+<p><img alt="" src="../img/data_preview.png" style="width:500px" /></p>
+<p>The graphs of Angles, Angular Velocity and Linear Acceleration are displayed on three superimposed coordinate systems.
+On the lower part of the panel there is a slider to view the launch data along its entire length of time.
+Closing the preview with the X takes you back to the capture panel, to continue acquiring other casts.
+Once the launches to be analyzed are registered we can access the database access panel.</p>
+<p><img alt="" src="../img/explore.png" style="width:300px" /></p>
+<h3 id="data-explorer">Data Explorer</h3>
+<p><img alt="" src="../img/browse.png" style="width:500px" /></p>
+<p>With the "BROWSE .." button you can access the historical data which are organized on a temporal basis. 
+A folder for each day of acquisition and a file for each cast.
+Selecting a cast loads the related data and the video if available. 
+The video window is freely movable on the screen by dragging. The same window can be resized and adjusted as transparency with the two sliders on the caption.</p>
+<h3 id="cast-selection">Cast Selection</h3>
+<p>The cast generally consists of a series of false casts and the actual cast at the end. 
+To scroll through the data, use the slider at the bottom of the panel, moving which also the seconds indication changes. 
+The upper "CAST SELECTOR" slider is a range selector that allows you to detach the cast or false-cast segment to be analyzed. 
+By moving the minimum and maximum slider you will notice how the selected part remains in the center of the defined range and graphs the selection also on the graph.</p>
+<p><img alt="" src="../img/selection.png" style="width:500px" /></p>
+<p>The next step is the actual analysis which is accessed via the "ANALISE .." button.</p>
+<h3 id="analysis">Analysis</h3>
+<p><img alt="" src="../img/analyzer.png" style="width:500px" /></p>
+<p>The analysis page consists of a graph showing the main angle, angular velocity and acceleration charts. The relative frame of the video is visible in the background, if present. 
+At the bottom of the graphs there is the time slider. With the movement of this slider the cursor moves and the numerical values ​​of the graph are updated.
+At the same time the relative frame of the video is updated. On the slider there are colored buttons, each of which individualizes a specific moment. 
+The description appears at the top of the screen. The colors are coded as follows: the angles in yellow, the speeds in cyan, the accelerations in magenta.</p>
+<p>On the left side of the panel there is the 3D representation of the path of the rod tip (intended as a lever). The sliders allow you to rotate and zoom the model.</p>
+<p>By pressing the "DATA" button you access the summary table of the data.</p>
+<p><img alt="" src="../img/data.png" style="width:500px" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
